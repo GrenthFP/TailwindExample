@@ -7,11 +7,13 @@ module.exports = {
     extend: {
       colors: {
         "accent-1": "#333",
-        twitter: "#0a1930",
-        twittergray: "3c3e42",
+        twitter: "#15202B",
+        twittergray: "#253341",
+        twitterfiller: "#192734",
       },
       height: { 0.25: "1px" },
-      width: { 0.25: "1px" },
+      width: { 0.25: "1px", 60: "240px" },
+
       margin: { 75: "300px" },
     },
   },
