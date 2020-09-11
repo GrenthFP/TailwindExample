@@ -3,23 +3,22 @@ export default function IndexPage() {
     <div className="w-screen h-screen bg-twitter lg:flex lg:flex-row">
       <div className="hidden lg:block lg:h-screen lg:w-12"></div>
 
-      <div className="absolute bottom-0 w-full mb-4 lg:relative lg:w-1/4 lg:flex lg:flex-row">
-        <button className="flex items-center justify-center w-16 h-16 ml-auto mr-4 font-bold text-white bg-blue-500 rounded-full hover:bg-blue-700 lg:hidden">
+      <div className="absolute bottom-0 w-full lg:relative lg:w-1/4 lg:flex lg:flex-row">
+        <button className="flex mb-5 items-center justify-center w-14.75 h-14.75 ml-auto mr-5 font-bold text-white bg-tweeterblue rounded-full hover:bg-blue-700 lg:hidden">
           <img
             src="https://upload.wikimedia.org/wikipedia/commons/c/c4/Quill_and_ink.svg"
             className="w-10 h-10"
           ></img>
         </button>
 
-        <div className="h-0.25 w-full bg-twittergray my-4 lg:h-screen lg:w-0.25 lg:hidden"></div>
-        <div className="flex text-white lg:flex-col lg:space-y-4 lg:w-full lg:ml-8">
+        <div className="flex text-white border-t mb-0.5 border-dunno lg:flex-col lg:space-y-4 lg:w-full lg:ml-8">
           <img
             src="https://i.pinimg.com/originals/88/69/9b/88699b2ec3b3164abaf20a23e20ed935.png"
             className="hidden w-10 h-auto mt-4 lg:block "
           ></img>
           <button className="flex justify-center w-1/4 lg:w-auto lg:justify-start lg:my-8">
             <svg
-              className="w-10 h-auto"
+              className="w-6.5625 lg:w-10  h-auto mb-auto mt-auto"
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
@@ -37,9 +36,9 @@ export default function IndexPage() {
               Home
             </span>
           </button>
-          <button className="flex justify-center w-1/4 lg:w-auto lg:justify-start lg:mb-8">
+          <button className="flex h-12.625 lg:h-auto justify-center w-1/4 lg:w-auto lg:justify-start lg:mb-8">
             <svg
-              className="w-10 h-auto lg:hidden"
+              className="w-6.5625 h-auto lg:hidden mb-auto mt-auto"
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
@@ -74,7 +73,7 @@ export default function IndexPage() {
           </button>
           <button className="flex justify-center w-1/4 lg:w-auto lg:justify-start lg:mb-8">
             <svg
-              className="w-10 h-auto"
+              className="w-6.5625 lg:w-10 h-auto mb-auto mt-auto"
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
@@ -93,9 +92,9 @@ export default function IndexPage() {
               Notifications
             </span>
           </button>
-          <button className="flex justify-center w-1/4 lg:w-auto lg:justify-start lg:mb-8">
+          <button className="flex justify-center w-1/4 lg:w-auto lg:justify-start lg:mb-8 ">
             <svg
-              className="w-10 h-auto"
+              className="w-6.5625 lg:w-10 h-auto mb-auto mt-auto "
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
@@ -205,7 +204,7 @@ export default function IndexPage() {
         <nav className="flex flex-row ">
           <img
             src="picture.png"
-            className="w-10 h-10 mx-2 my-2 lg:hidden"
+            className="w-7.5 h-auto mx-4  my-3 lg:hidden"
           ></img>
           <a
             href="/home/"
@@ -319,8 +318,8 @@ export default function IndexPage() {
       </div>
       <div className="hidden w-1/3 h-screen lg:flex ">
         <div className="hidden h-full w-0.25 bg-twittergray  lg:h-screen  lg:block"></div>
-        <div className="mt-1 ml-8 space-y-4">
-          <div className="h-10 p-2 space-x-4 rounded-full bg-twittergray">
+        <div className="mt-1 w-87.5 ml-8 space-y-4">
+          <div className="w-78.5 h-10 p-2 space-x-4 rounded-full bg-twittergray">
             <svg
               className="inline w-5 h-5 ml-2 text-blue-500"
               xmlns="http://www.w3.org/2000/svg"
@@ -340,7 +339,7 @@ export default function IndexPage() {
               value="Search"
             ></input>
           </div>
-          <div className="w-64 h-10 rounded-full bg-twitterfiller">
+          <div className="w-87.5 h-10 rounded-full bg-twitterfiller">
             <p className="py-2 pl-4 font-bold text-white">Trends for you</p>
             <div className="w-60 -mt-1 h-0.25 ml-2  bg-gray-500 "></div>
           </div>
