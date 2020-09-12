@@ -11,7 +11,7 @@ export default function IndexPage() {
 
         <div className="flex text-white md:border-none border-t mb-0.5 border-dunno md:flex-col md:space-y-4 md:w-full  ">
           <div className="flex w-full h-full md:w-16 xl:w-64 md:block xl:mr-4 md:space-y-4 md:ml-auto ">
-            <div className="hidden w-12 py-2 pl-2 mt-2 rounded-full hover:bg-blue-700 md:block ">
+            <div className="hidden w-12 py-2 pl-2 mt-2 rounded-full cursor-pointer hover:bg-blue-700 md:block">
               <svg
                 viewBox="0 0 24 24"
                 className="w-8 h-8"
@@ -200,7 +200,7 @@ export default function IndexPage() {
                 More
               </span>
             </button>
-            <button className="hidden w-48 px-4 py-2 font-bold text-white bg-blue-500 rounded-full hover:bg-blue-700 xl:block ">
+            <button className="hidden w-48 px-4 py-2 font-bold text-white transition duration-300 bg-blue-500 rounded-full hover:bg-blue-700 xl:block">
               Tweet
             </button>
             <button className="items-center justify-center hidden w-10 h-10 mb-5 ml-auto mr-6 font-bold text-white rounded-full md:flex bg-tweeterblue hover:bg-blue-700 xl:hidden">
@@ -335,7 +335,7 @@ export default function IndexPage() {
         <div className="flex flex-col items-center my-auto text-white">
           <h1 className="mt-8 text-lg font-bold">Welcome</h1>
 
-          <p>Here is some text</p>
+          <span>Here is some text</span>
           <button className="px-4 py-2 mt-4 font-bold text-white bg-blue-500 rounded-full hover:bg-blue-700 ">
             button
           </button>
@@ -360,24 +360,28 @@ export default function IndexPage() {
               />
             </svg>
             <input
-              className="text-gray-500 h-7 bg-twittergray"
+              className="text-gray-500 outline-none h-7 bg-twittergray"
               value="Search"
             ></input>
           </div>
           <div className="h-10 border-b rounded-lg lg:w-64 xl:w-84 bg-twitterfiller">
-            <p className="py-2 pl-4 font-bold text-white">Trends for you</p>
+            <span className="py-2 pl-4 font-bold text-white">
+              Trends for you
+            </span>
           </div>
           <div className="w-64 rounded-lg bg-twitterfiller xl:w-84">
-            <p className="py-2 pl-4 font-bold text-white">Who to follow</p>
+            <span className="py-2 pl-4 font-bold text-white">
+              Who to follow
+            </span>
 
             <div className="flex flex-row border-t border-b cursor-pointer hover:bg-blue-700">
               <img
                 src="picture.png"
                 className="inline w-10 h-10 mx-2 my-3 "
               ></img>
-              <div className="inline-block pl-2 ">
-                <p className="mt-2 font-bold text-white">Me Memov</p>
-                <p className="-mt-1 text-white ">@me</p>
+              <div className="flex flex-col pl-2 ">
+                <span className="mt-2 font-bold text-white">Me Memov</span>
+                <span className="-mt-1 text-white ">@me</span>
               </div>
               <button className="h-10 px-4 py-2 mt-3 ml-auto mr-4 font-bold text-white text-blue-500 transform scale-75 border border-blue-500 rounded-full bg-twitterfiller hover:bg-blue-700 lg:block">
                 Follow
@@ -389,18 +393,17 @@ export default function IndexPage() {
                 src="picture.png"
                 className="inline w-10 h-10 mx-2 my-3 "
               ></img>
-              <div className="inline-block pl-2 ">
-                <p className="mt-2 font-bold text-white">You Youov</p>
-                <p className="-mt-1 text-white">@you</p>
+              <div className="flex flex-col pl-2 ">
+                <span className="mt-2 font-bold text-white">You Youov</span>
+                <span className="-mt-1 text-white">@you</span>
               </div>
               <button className="h-10 px-4 py-2 mt-3 ml-auto mr-4 font-bold text-white text-blue-500 transform scale-75 border border-blue-500 rounded-full bg-twitterfiller hover:bg-blue-700 lg:block">
                 Follow
               </button>
             </div>
-
-            <p className="py-2 pl-4 text-blue-500 cursor-pointer rounded-b-md fond-bold hover:bg-blue-700">
-              Show more
-            </p>
+            <div className="w-full py-2 cursor-pointer hover:bg-blue-700 rounded-b-md">
+              <span className="pl-4 text-blue-500 fond-bold ">Show more</span>
+            </div>
           </div>
           <div className="flex flex-row ml-4 space-x-2 text-xs text-gray-500">
             <a className="cursor-pointer hover:underline">Terms</a>
