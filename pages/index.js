@@ -1,7 +1,7 @@
 export default function IndexPage() {
   return (
     <div className="w-screen h-screen bg-twitter md:flex md:flex-row">
-      <div className="absolute bottom-0 w-full md:relative md:w-1/6 ml:w-1/4 md:flex md:flex-row">
+      <div className="absolute bottom-0 w-full md:relative md:w-1/6 xl:w-64 md:flex md:flex-row xl:ml-auto">
         <button className="flex mb-5 items-center justify-center w-14.75 h-14.75 ml-auto mr-5 font-bold text-white bg-tweeterblue rounded-full hover:bg-blue-700 md:hidden">
           <img
             src="https://upload.wikimedia.org/wikipedia/commons/c/c4/Quill_and_ink.svg"
@@ -9,15 +9,17 @@ export default function IndexPage() {
           ></img>
         </button>
 
-        <div className="flex text-white md:border-none border-t mb-0.5 border-dunno md:flex-col md:space-y-4 md:w-full ">
-          <div className="flex w-full h-full md:ml-auto md:w-16 xl:w-56 md:block ">
-            <img
-              src="https://i.pinimg.com/originals/88/69/9b/88699b2ec3b3164abaf20a23e20ed935.png"
-              className="hidden w-10 h-auto mt-4 md:block "
-            ></img>
-            <button className="flex justify-center w-1/4 md:w-auto md:justify-start md:my-8">
+        <div className="flex text-white md:border-none border-t mb-0.5 border-dunno md:flex-col md:space-y-4 md:w-full  ">
+          <div className="flex w-full h-full md:w-16 xl:w-64 md:block xl:mr-4 md:space-y-4 md:ml-auto ">
+            <div className="hidden w-12 p-2 mt-2 rounded-full hover:bg-blue-700 md:block">
+              <img
+                src="https://i.pinimg.com/originals/88/69/9b/88699b2ec3b3164abaf20a23e20ed935.png"
+                className="w-10 h-auto "
+              ></img>
+            </div>
+            <button className="flex justify-center w-1/4 rounded-full xl:pr-4 xl:pl-2 md:w-auto md:justify-start hover:bg-blue-700 xl:py-1">
               <svg
-                className="w-6.5625 md:w-10  h-auto mb-auto mt-auto"
+                className="w-6.5625 md:w-10  h-auto mb-auto mt-auto "
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
@@ -35,7 +37,7 @@ export default function IndexPage() {
                 Home
               </span>
             </button>
-            <button className="flex h-12.625 md:h-auto justify-center w-1/4 md:w-auto md:justify-start md:mb-8">
+            <button className="flex h-12.625 md:h-auto justify-center w-1/4 md:w-auto md:justify-start  xl:pr-4 xl:pl-2 hover:bg-blue-700 xl:py-1 rounded-full">
               <svg
                 className="w-6.5625 h-auto md:hidden mb-auto mt-auto"
                 xmlns="http://www.w3.org/2000/svg"
@@ -70,7 +72,7 @@ export default function IndexPage() {
                 Explore
               </span>
             </button>
-            <button className="flex justify-center w-1/4 md:w-auto md:justify-start md:mb-8">
+            <button className="flex justify-center w-1/4 rounded-full md:w-auto md:justify-start xl:pr-4 xl:pl-2 hover:bg-blue-700 xl:py-1">
               <svg
                 className="w-6.5625 md:w-10 h-auto mb-auto mt-auto"
                 xmlns="http://www.w3.org/2000/svg"
@@ -91,7 +93,7 @@ export default function IndexPage() {
                 Notifications
               </span>
             </button>
-            <button className="flex justify-center w-1/4 md:w-auto md:justify-start md:mb-8 ">
+            <button className="flex justify-center w-1/4 rounded-full md:w-auto md:justify-start xl:pr-4 xl:pl-2 hover:bg-blue-700 xl:py-1">
               <svg
                 className="w-6.5625 md:w-10 h-auto mb-auto mt-auto "
                 xmlns="http://www.w3.org/2000/svg"
@@ -111,7 +113,7 @@ export default function IndexPage() {
                 Messages
               </span>
             </button>
-            <button className="justify-center hidden md:flex md:justify-start md:mb-8">
+            <button className="justify-center hidden rounded-full md:flex md:justify-start xl:pr-4 xl:pl-2 hover:bg-blue-700 xl:py-1">
               <svg
                 className="w-10 h-auto"
                 xmlns="http://www.w3.org/2000/svg"
@@ -131,7 +133,7 @@ export default function IndexPage() {
                 Bookmarks
               </span>
             </button>
-            <button className="justify-center hidden md:flex md:justify-start md:mb-8">
+            <button className="justify-center hidden rounded-full md:flex md:justify-start xl:pr-4 xl:pl-2 hover:bg-blue-700 xl:py-1">
               <svg
                 className="w-10 h-auto"
                 xmlns="http://www.w3.org/2000/svg"
@@ -151,7 +153,7 @@ export default function IndexPage() {
                 Lists
               </span>
             </button>
-            <button className="justify-center hidden md:flex md:justify-start md:mb-8">
+            <button className="justify-center hidden rounded-full md:flex md:justify-start xl:pr-4 xl:pl-2 hover:bg-blue-700 xl:py-1">
               <svg
                 className="w-10 h-auto"
                 xmlns="http://www.w3.org/2000/svg"
@@ -172,7 +174,7 @@ export default function IndexPage() {
                 Profile
               </span>
             </button>
-            <button className="justify-center hidden md:flex md:justify-start md:mb-8">
+            <button className="justify-center hidden rounded-full md:flex md:justify-start xl:pr-4 xl:pl-2 hover:bg-blue-700 xl:py-1">
               <svg
                 className="w-10 h-auto"
                 xmlns="http://www.w3.org/2000/svg"
@@ -202,7 +204,6 @@ export default function IndexPage() {
               ></img>
             </button>
           </div>
-          <div className="hidden h-0.25 w-full bg-twittergray  lg:h-screen lg:w-0.25 lg:block"></div>
         </div>
       </div>
       {/*Side bar almost finished*/}
@@ -320,7 +321,7 @@ export default function IndexPage() {
           </button>
         </div>
       </div>
-      <div className="hidden w-1/3 h-screen lg:flex ">
+      <div className="hidden w-64 h-screen mr-auto lg:flex ">
         <div className=" h-full w-0.25 bg-twittergray  h-screen  "></div>
         <div className="mt-1 w-87.5 ml-8 space-y-4">
           <div className="w-78.5 h-10 p-2 space-x-4 rounded-full bg-twittergray">
@@ -343,14 +344,13 @@ export default function IndexPage() {
               value="Search"
             ></input>
           </div>
-          <div className="w-87.5 h-10 rounded-full bg-twitterfiller">
+          <div className="h-10 border-b rounded-lg lg:w-64 xl:w-84 bg-twitterfiller">
             <p className="py-2 pl-4 font-bold text-white">Trends for you</p>
-            <div className="w-60 -mt-1 h-0.25 ml-2  bg-gray-500 "></div>
           </div>
           <div className="w-64 rounded-lg bg-twitterfiller">
             <p className="py-2 pl-4 font-bold text-white">Who to follow</p>
-            <div className="w-64 -mt-1 h-0.25   bg-gray-500 "></div>
-            <div className="flex flex-row">
+
+            <div className="flex flex-row border-t border-b hover:bg-blue-700">
               <img
                 src="picture.png"
                 className="inline w-10 h-10 mx-2 my-3 "
@@ -363,8 +363,8 @@ export default function IndexPage() {
                 Follow
               </button>
             </div>
-            <div className="w-64 -mt-1 h-0.25   bg-gray-500 "></div>
-            <div className="flex flex-row">
+
+            <div className="flex flex-row border-b hover:bg-blue-700">
               <img
                 src="picture.png"
                 className="inline w-10 h-10 mx-2 my-3 "
@@ -377,8 +377,10 @@ export default function IndexPage() {
                 Follow
               </button>
             </div>
-            <div className="w-64 -mt-1 h-0.25   bg-gray-500 "></div>
-            <p className="py-2 pl-4 text-blue-500 fond-bold">Show more</p>
+
+            <p className="py-2 pl-4 text-blue-500 rounded-b-md fond-bold hover:bg-blue-700">
+              Show more
+            </p>
           </div>
           <div className="flex flex-row ml-4 space-x-2 text-xs text-gray-500">
             <a>Terms</a>
