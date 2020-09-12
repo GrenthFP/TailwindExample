@@ -237,8 +237,8 @@ export default function IndexPage() {
             </g>
           </svg>
         </nav>
-        <div className="h-0.25 w-full bg-twittergray"></div>
-        <div className="hidden md:flex-row md:flex">
+
+        <div className="hidden border-t md:flex-row md:flex border-twittergray">
           <img
             src="picture.png"
             className="w-10 h-10 mx-2 my-2 rounded-full cursor-pointer hover:bg-gray-500 hover:opacity-50"
@@ -246,10 +246,10 @@ export default function IndexPage() {
           <input
             type="text"
             value="Write something here..."
-            className="text-lg font-bold text-white outline-none text-twittergray bg-twitter"
+            className="text-lg font-bold text-white outline-none bg-twitter"
           ></input>
         </div>
-        <div className="hidden mt-2 text-blue-500 md:flex md:flex-row">
+        <div className="hidden mt-2 text-blue-500 border-b-8 md:flex md:flex-row border-twittergray">
           <svg
             className="w-8 h-8 p-1 ml-10 transition duration-300 rounded-full cursor-pointer hover:bg-blue-700"
             xmlns="http://www.w3.org/2000/svg"
@@ -327,11 +327,11 @@ export default function IndexPage() {
             />
           </svg>
 
-          <button className="px-4 py-2 ml-auto mr-4 font-bold text-gray-500 rounded-full cursor-default bg-tweeterblued ">
+          <button className="px-4 py-2 mb-2 ml-auto mr-4 font-bold text-gray-500 rounded-full cursor-default bg-tweeterblued">
             Tweet
           </button>
         </div>
-        <div className="hidden w-full h-2 mt-2 bg-twittergray md:block"></div>
+
         <div className="flex flex-col items-center my-auto text-white">
           <h1 className="mt-8 text-lg font-bold">Welcome</h1>
 
@@ -342,7 +342,6 @@ export default function IndexPage() {
         </div>
       </div>
       <div className="hidden w-64 h-screen mr-auto lg:flex ">
-        <div className=" h-full w-0.25 bg-twittergray  h-screen  "></div>
         <div className="mt-1 w-87.5 ml-8 space-y-4">
           <div className="w-78.5 h-10 p-2 space-x-4 rounded-full bg-twittergray">
             <svg
@@ -383,7 +382,7 @@ export default function IndexPage() {
                 <span className="mt-2 font-bold text-white">Me Memov</span>
                 <span className="-mt-1 text-white ">@me</span>
               </div>
-              <button className="h-10 px-4 py-2 mt-3 ml-auto mr-4 font-bold text-white text-blue-500 transform scale-75 border border-blue-500 rounded-full bg-twitterfiller hover:bg-blue-700 lg:block">
+              <button className="h-10 px-4 py-2 mt-3 ml-auto mr-4 font-bold text-blue-500 transform scale-75 border border-blue-500 rounded-full bg-twitterfiller hover:bg-blue-700 lg:block">
                 Follow
               </button>
             </div>
@@ -397,7 +396,7 @@ export default function IndexPage() {
                 <span className="mt-2 font-bold text-white">You Youov</span>
                 <span className="-mt-1 text-white">@you</span>
               </div>
-              <button className="h-10 px-4 py-2 mt-3 ml-auto mr-4 font-bold text-white text-blue-500 transform scale-75 border border-blue-500 rounded-full bg-twitterfiller hover:bg-blue-700 lg:block">
+              <button className="h-10 px-4 py-2 mt-3 ml-auto mr-4 font-bold text-blue-500 transform scale-75 border border-blue-500 rounded-full bg-twitterfiller hover:bg-blue-700 lg:block">
                 Follow
               </button>
             </div>
