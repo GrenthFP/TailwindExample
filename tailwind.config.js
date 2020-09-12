@@ -10,7 +10,7 @@ module.exports = {
         twitter: "#15202B",
         twittergray: "#253341",
         twitterfiller: "#192734",
-        dunno: "#6E98BF",
+        dunno: "#38444D",
         tweeterblue: "#1A91DA",
       },
       height: { 0.25: "1px", 14.75: "59px", 12.625: "50.5px" },
