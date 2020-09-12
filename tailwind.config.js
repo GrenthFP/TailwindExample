@@ -12,9 +12,11 @@ module.exports = {
         twitterfiller: "#192734",
         dunno: "#38444D",
         tweeterblue: "#1A91DA",
+        tweeterblued: "#19608E",
       },
-      height: { 0.25: "1px", 14.75: "59px", 12.625: "50.5px" },
+      height: { 0.25: "1px", 14.75: "59px", 12.625: "50.5px", 7: "28px" },
       width: {
+        7: "28px",
         12: "48px",
         84: "336px",
         0.25: "1px",

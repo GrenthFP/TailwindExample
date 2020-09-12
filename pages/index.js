@@ -11,13 +11,19 @@ export default function IndexPage() {
 
         <div className="flex text-white md:border-none border-t mb-0.5 border-dunno md:flex-col md:space-y-4 md:w-full  ">
           <div className="flex w-full h-full md:w-16 xl:w-64 md:block xl:mr-4 md:space-y-4 md:ml-auto ">
-            <div className="hidden w-12 p-2 mt-2 rounded-full hover:bg-blue-700 md:block">
-              <img
-                src="https://i.pinimg.com/originals/88/69/9b/88699b2ec3b3164abaf20a23e20ed935.png"
-                className="w-10 h-auto "
-              ></img>
+            <div className="hidden w-12 py-2 pl-2 mt-2 rounded-full hover:bg-blue-700 md:block ">
+              <svg
+                viewBox="0 0 24 24"
+                className="w-8 h-8"
+                stroke="currentColor"
+                fill="currentColor"
+              >
+                <g>
+                  <path d="M23.643 4.937c-.835.37-1.732.62-2.675.733.962-.576 1.7-1.49 2.048-2.578-.9.534-1.897.922-2.958 1.13-.85-.904-2.06-1.47-3.4-1.47-2.572 0-4.658 2.086-4.658 4.66 0 .364.042.718.12 1.06-3.873-.195-7.304-2.05-9.602-4.868-.4.69-.63 1.49-.63 2.342 0 1.616.823 3.043 2.072 3.878-.764-.025-1.482-.234-2.11-.583v.06c0 2.257 1.605 4.14 3.737 4.568-.392.106-.803.162-1.227.162-.3 0-.593-.028-.877-.082.593 1.85 2.313 3.198 4.352 3.234-1.595 1.25-3.604 1.995-5.786 1.995-.376 0-.747-.022-1.112-.065 2.062 1.323 4.51 2.093 7.14 2.093 8.57 0 13.255-7.098 13.255-13.254 0-.2-.005-.402-.014-.602.91-.658 1.7-1.477 2.323-2.41z"></path>
+                </g>
+              </svg>
             </div>
-            <button className="flex justify-center w-1/4 rounded-full xl:pr-4 xl:pl-2 md:w-auto md:justify-start hover:bg-blue-700 xl:py-1">
+            <button className="flex justify-center w-1/4 transition duration-300 rounded-full xl:pr-4 xl:pl-2 md:w-auto md:justify-start hover:bg-blue-700 xl:py-1">
               <svg
                 className="w-6.5625 md:w-10  h-auto mb-auto mt-auto "
                 xmlns="http://www.w3.org/2000/svg"
@@ -37,7 +43,7 @@ export default function IndexPage() {
                 Home
               </span>
             </button>
-            <button className="flex h-12.625 md:h-auto justify-center w-1/4 md:w-auto md:justify-start  xl:pr-4 xl:pl-2 hover:bg-blue-700 xl:py-1 rounded-full">
+            <button className="flex h-12.625 md:h-auto justify-center w-1/4 md:w-auto md:justify-start  xl:pr-4 xl:pl-2 hover:bg-blue-700 xl:py-1 rounded-full transition duration-300">
               <svg
                 className="w-6.5625 h-auto md:hidden mb-auto mt-auto"
                 xmlns="http://www.w3.org/2000/svg"
@@ -72,7 +78,7 @@ export default function IndexPage() {
                 Explore
               </span>
             </button>
-            <button className="flex justify-center w-1/4 rounded-full md:w-auto md:justify-start xl:pr-4 xl:pl-2 hover:bg-blue-700 xl:py-1">
+            <button className="flex justify-center w-1/4 transition duration-300 rounded-full md:w-auto md:justify-start xl:pr-4 xl:pl-2 hover:bg-blue-700 xl:py-1">
               <svg
                 className="w-6.5625 md:w-10 h-auto mb-auto mt-auto"
                 xmlns="http://www.w3.org/2000/svg"
@@ -93,7 +99,7 @@ export default function IndexPage() {
                 Notifications
               </span>
             </button>
-            <button className="flex justify-center w-1/4 rounded-full md:w-auto md:justify-start xl:pr-4 xl:pl-2 hover:bg-blue-700 xl:py-1">
+            <button className="flex justify-center w-1/4 transition duration-300 rounded-full md:w-auto md:justify-start xl:pr-4 xl:pl-2 hover:bg-blue-700 xl:py-1">
               <svg
                 className="w-6.5625 md:w-10 h-auto mb-auto mt-auto "
                 xmlns="http://www.w3.org/2000/svg"
@@ -113,7 +119,7 @@ export default function IndexPage() {
                 Messages
               </span>
             </button>
-            <button className="justify-center hidden rounded-full md:flex md:justify-start xl:pr-4 xl:pl-2 hover:bg-blue-700 xl:py-1">
+            <button className="justify-center hidden transition duration-300 rounded-full md:flex md:justify-start xl:pr-4 xl:pl-2 hover:bg-blue-700 xl:py-1">
               <svg
                 className="w-10 h-auto"
                 xmlns="http://www.w3.org/2000/svg"
@@ -133,7 +139,7 @@ export default function IndexPage() {
                 Bookmarks
               </span>
             </button>
-            <button className="justify-center hidden rounded-full md:flex md:justify-start xl:pr-4 xl:pl-2 hover:bg-blue-700 xl:py-1">
+            <button className="justify-center hidden transition duration-300 rounded-full md:flex md:justify-start xl:pr-4 xl:pl-2 hover:bg-blue-700 xl:py-1">
               <svg
                 className="w-10 h-auto"
                 xmlns="http://www.w3.org/2000/svg"
@@ -153,7 +159,7 @@ export default function IndexPage() {
                 Lists
               </span>
             </button>
-            <button className="justify-center hidden rounded-full md:flex md:justify-start xl:pr-4 xl:pl-2 hover:bg-blue-700 xl:py-1">
+            <button className="justify-center hidden transition duration-300 rounded-full md:flex md:justify-start xl:pr-4 xl:pl-2 hover:bg-blue-700 xl:py-1">
               <svg
                 className="w-10 h-auto"
                 xmlns="http://www.w3.org/2000/svg"
@@ -174,7 +180,7 @@ export default function IndexPage() {
                 Profile
               </span>
             </button>
-            <button className="justify-center hidden rounded-full md:flex md:justify-start xl:pr-4 xl:pl-2 hover:bg-blue-700 xl:py-1">
+            <button className="justify-center hidden transition duration-300 rounded-full md:flex md:justify-start xl:pr-4 xl:pl-2 hover:bg-blue-700 xl:py-1">
               <svg
                 className="w-10 h-auto"
                 xmlns="http://www.w3.org/2000/svg"
@@ -213,25 +219,39 @@ export default function IndexPage() {
             src="picture.png"
             className="w-7.5 h-auto mx-4  my-3 md:hidden"
           ></img>
-          <a
+          <span
             href="/home/"
-            className="mt-4 ml-4 text-lg font-bold text-white md:mb-4"
+            className="mt-4 ml-4 text-lg font-bold text-white cursor-pointer md:mb-4"
           >
             Home
-          </a>
+          </span>
+          <svg
+            className="w-8 h-8 p-1 mt-auto mb-auto ml-auto mr-2 text-blue-500 rounded-full cursor-pointer hover:bg-blue-900"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            class="r-13gxpu9 r-4qtqp9 r-yyyyoo r-1q142lx r-50lct3 r-dnmrzs r-bnwqim r-1plcrui r-lrvibr r-1srniue"
+            stroke="currentColor"
+          >
+            <g>
+              <path d="M22.772 10.506l-5.618-2.192-2.16-6.5c-.102-.307-.39-.514-.712-.514s-.61.207-.712.513l-2.16 6.5-5.62 2.192c-.287.112-.477.39-.477.7s.19.585.478.698l5.62 2.192 2.16 6.5c.102.306.39.513.712.513s.61-.207.712-.513l2.16-6.5 5.62-2.192c.287-.112.477-.39.477-.7s-.19-.585-.478-.697zm-6.49 2.32c-.208.08-.37.25-.44.46l-1.56 4.695-1.56-4.693c-.07-.21-.23-.38-.438-.462l-4.155-1.62 4.154-1.622c.208-.08.37-.25.44-.462l1.56-4.693 1.56 4.694c.07.212.23.382.438.463l4.155 1.62-4.155 1.622zM6.663 3.812h-1.88V2.05c0-.414-.337-.75-.75-.75s-.75.336-.75.75v1.762H1.5c-.414 0-.75.336-.75.75s.336.75.75.75h1.782v1.762c0 .414.336.75.75.75s.75-.336.75-.75V5.312h1.88c.415 0 .75-.336.75-.75s-.335-.75-.75-.75zm2.535 15.622h-1.1v-1.016c0-.414-.335-.75-.75-.75s-.75.336-.75.75v1.016H5.57c-.414 0-.75.336-.75.75s.336.75.75.75H6.6v1.016c0 .414.335.75.75.75s.75-.336.75-.75v-1.016h1.098c.414 0 .75-.336.75-.75s-.336-.75-.75-.75z"></path>
+            </g>
+          </svg>
         </nav>
         <div className="h-0.25 w-full bg-twittergray"></div>
         <div className="hidden md:flex-row md:flex">
-          <img src="picture.png" className="w-10 h-10 mx-2 my-2"></img>
+          <img
+            src="picture.png"
+            className="w-10 h-10 mx-2 my-2 rounded-full cursor-pointer hover:bg-gray-500 hover:opacity-50"
+          ></img>
           <input
             type="text"
             value="Write something here..."
-            className="text-lg font-bold text-twittergray bg-twitter"
+            className="text-lg font-bold text-white outline-none text-twittergray bg-twitter"
           ></input>
         </div>
         <div className="hidden mt-2 text-blue-500 md:flex md:flex-row">
           <svg
-            className="w-6 h-6 ml-10 "
+            className="w-8 h-8 p-1 ml-10 transition duration-300 rounded-full cursor-pointer hover:bg-blue-700"
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
@@ -251,7 +271,7 @@ export default function IndexPage() {
             />
           </svg>
           <svg
-            className="w-6 h-6 ml-2 "
+            className="w-8 h-8 p-1 ml-1 transition duration-300 rounded-full cursor-pointer hover:bg-blue-700"
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
@@ -265,7 +285,7 @@ export default function IndexPage() {
             />
           </svg>
           <svg
-            className="w-6 h-6 ml-2 "
+            className="w-8 h-8 p-1 ml-1 transition duration-300 rounded-full cursor-pointer hover:bg-blue-700"
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
@@ -279,7 +299,7 @@ export default function IndexPage() {
             />
           </svg>
           <svg
-            className="w-6 h-6 ml-2 "
+            className="w-8 h-8 p-1 ml-1 transition duration-300 rounded-full cursor-pointer hover:bg-blue-700"
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
@@ -293,7 +313,7 @@ export default function IndexPage() {
             />
           </svg>
           <svg
-            className="hidden w-6 h-6 ml-2 lg:block"
+            className="w-8 h-8 p-1 ml-1 transition duration-300 rounded-full cursor-pointer hover:bg-blue-700"
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
@@ -307,7 +327,7 @@ export default function IndexPage() {
             />
           </svg>
 
-          <button className="px-4 py-2 ml-auto mr-4 font-bold text-white bg-blue-500 rounded-full hover:bg-blue-700">
+          <button className="px-4 py-2 ml-auto mr-4 font-bold text-gray-500 rounded-full cursor-default bg-tweeterblued ">
             Tweet
           </button>
         </div>
@@ -316,7 +336,7 @@ export default function IndexPage() {
           <h1 className="mt-8 text-lg font-bold">Welcome</h1>
 
           <p>Here is some text</p>
-          <button className="px-4 py-2 mt-4 font-bold text-white bg-blue-500 rounded-full hover:bg-blue-700">
+          <button className="px-4 py-2 mt-4 font-bold text-white bg-blue-500 rounded-full hover:bg-blue-700 ">
             button
           </button>
         </div>
@@ -347,10 +367,10 @@ export default function IndexPage() {
           <div className="h-10 border-b rounded-lg lg:w-64 xl:w-84 bg-twitterfiller">
             <p className="py-2 pl-4 font-bold text-white">Trends for you</p>
           </div>
-          <div className="w-64 rounded-lg bg-twitterfiller">
+          <div className="w-64 rounded-lg bg-twitterfiller xl:w-84">
             <p className="py-2 pl-4 font-bold text-white">Who to follow</p>
 
-            <div className="flex flex-row border-t border-b hover:bg-blue-700">
+            <div className="flex flex-row border-t border-b cursor-pointer hover:bg-blue-700">
               <img
                 src="picture.png"
                 className="inline w-10 h-10 mx-2 my-3 "
@@ -364,7 +384,7 @@ export default function IndexPage() {
               </button>
             </div>
 
-            <div className="flex flex-row border-b hover:bg-blue-700">
+            <div className="flex flex-row border-b cursor-pointer hover:bg-blue-700">
               <img
                 src="picture.png"
                 className="inline w-10 h-10 mx-2 my-3 "
@@ -378,16 +398,16 @@ export default function IndexPage() {
               </button>
             </div>
 
-            <p className="py-2 pl-4 text-blue-500 rounded-b-md fond-bold hover:bg-blue-700">
+            <p className="py-2 pl-4 text-blue-500 cursor-pointer rounded-b-md fond-bold hover:bg-blue-700">
               Show more
             </p>
           </div>
           <div className="flex flex-row ml-4 space-x-2 text-xs text-gray-500">
-            <a>Terms</a>
-            <a>Privacy Policy</a>
-            <a>Cookies</a>
-            <a>Ads info</a>
-            <a>More</a>
+            <a className="cursor-pointer hover:underline">Terms</a>
+            <a className="cursor-pointer hover:underline">Privacy Policy</a>
+            <a className="cursor-pointer hover:underline">Cookies</a>
+            <a className="cursor-pointer hover:underline">Ads info</a>
+            <a className="cursor-pointer hover:underline">More</a>
           </div>
         </div>
       </div>
