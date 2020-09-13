@@ -9,7 +9,7 @@ export default function IndexPage() {
           ></img>
         </button>
 
-        <div className="flex text-white md:border-none border-t mb-0.5 border-dunno md:flex-col md:space-y-4 md:w-full  ">
+        <div className="flex text-white md:border-none border-t mb-0.5 border-tweetergrayd md:flex-col md:space-y-4 md:w-full  ">
           <div className="flex w-full h-full md:w-16 xl:w-64 md:block xl:mr-4 md:space-y-4 md:ml-auto ">
             <div className="hidden w-12 py-2 pl-2 mt-2 rounded-full cursor-pointer hover:bg-blue-700 md:block">
               <svg
@@ -213,7 +213,7 @@ export default function IndexPage() {
         </div>
       </div>
       {/*Side bar almost finished*/}
-      <div className="w-screen lg:max-w-lg md:border xl:w-2/5 border-dunno">
+      <div className="w-screen lg:max-w-lg md:border xl:w-2/5 border-tweetergrayd">
         <nav className="flex flex-row ">
           <img
             src="picture.png"
@@ -363,8 +363,8 @@ export default function IndexPage() {
               placeholder="Search"
             ></input>
           </div>
-          <div className="h-10 border-b rounded-lg lg:w-64 xl:w-84 bg-twitterfiller">
-            <span className="py-2 pl-4 font-bold text-white">
+          <div className="h-10 pt-1 border-b rounded-lg lg:w-64 xl:w-84 bg-twitterfiller">
+            <span className="py-2 pl-4 mt-2 font-bold text-white">
               Trends for you
             </span>
           </div>

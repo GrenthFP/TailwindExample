@@ -10,7 +10,7 @@ module.exports = {
         twitter: "#15202B",
         twittergray: "#253341",
         twitterfiller: "#192734",
-        dunno: "#38444D",
+        tweetergrayd: "#38444D",
         tweeterblue: "#1A91DA",
         tweeterblued: "#19608E",
       },
