@@ -245,8 +245,8 @@ export default function IndexPage() {
           ></img>
           <input
             type="text"
-            value="Write something here..."
-            className="text-lg font-bold text-white outline-none bg-twitter"
+            placeholder="Write something here..."
+            className="text-lg font-bold text-white outline-none bg-twitter focus:placeholder-opacity-0"
           ></input>
         </div>
         <div className="hidden mt-2 text-blue-500 border-b-8 md:flex md:flex-row border-twittergray">
@@ -358,9 +358,10 @@ export default function IndexPage() {
                 d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
               />
             </svg>
+
             <input
-              className="text-gray-500 outline-none h-7 bg-twittergray"
-              value="Search"
+              className="pb-3 text-gray-500 outline-none h-7 bg-twittergray focus:placeholder-opacity-0"
+              placeholder="Search"
             ></input>
           </div>
           <div className="h-10 border-b rounded-lg lg:w-64 xl:w-84 bg-twitterfiller">
