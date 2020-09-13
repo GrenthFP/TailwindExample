@@ -341,8 +341,8 @@ export default function IndexPage() {
         </div>
       </div>
       <div className="hidden w-64 h-screen mr-auto lg:flex ">
-        <div className="mt-1 w-87.5 ml-8 space-y-4">
-          <div className="w-78.5 h-10 p-2 space-x-4 rounded-full bg-twittergray">
+        <div className="mt-1 ml-8 space-y-4">
+          <div className="w-full h-10 p-2 space-x-4 rounded-full bg-twittergray">
             <svg
               className="inline w-5 h-5 ml-2 text-blue-500"
               xmlns="http://www.w3.org/2000/svg"
